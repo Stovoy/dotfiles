@@ -10,6 +10,7 @@ fi
 
 ### Go
 
+export GOROOT=/usr/local/Cellar/go/1.8.3/libexec
 export GOPATH=~/src/go
 export GOBIN=~/src/go/bin
 export PATH=$PATH:$GOBIN
