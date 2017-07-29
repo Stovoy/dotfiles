@@ -15,4 +15,4 @@ export GOPATH=~/src/go
 export GOBIN=~/src/go/bin
 export PATH=$PATH:$GOBIN
 
-alias idea_exclude='echo .idea/ >> .git/info/exclude'
+alias idea_exclude='echo .idea/ >> .git/info/exclude; echo *.iml >> .git/info/exclude'
